@@ -1,19 +1,25 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container" style="width:600px">
+      <div style="margin: 20px">
+        <h3>bezkoder.com</h3>
+        <h4>Vue.js upload Files</h4>
+      </div>
+
+      <upload-files></upload-files>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import UploadFiles from "./components/UploadFiles";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    UploadFiles,
   }
-}
+};
 </script>
 
 <style>
