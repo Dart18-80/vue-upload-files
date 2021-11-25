@@ -2,8 +2,8 @@
   <div id="app">
     <div class="container" style="width:600px">
       <div style="margin: 20px">
-        <h3>bezkoder.com</h3>
-        <h4>Vue.js upload Files</h4>
+        <h3>Implementacion subir Archivo</h3>
+        <h4>Carga de archivo con Vue</h4>
       </div>
 
       <upload-files></upload-files>
